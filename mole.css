@@ -1,30 +1,36 @@
 /* Your code here */
+.pf {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .wgs {
   position: relative;
-  width: 640px;
-  height: 482px;
+  width: 320px;
+  height: 241px;
   display: inline-block;
   overflow: hidden;
 }
 
 .wgs__mole-head {
   position: absolute;
-  width: 376px;
-  height: 356px;
+  width: 188px;
+  height: 178px;
   top: 0px;
-  left: 109px;
+  left: 54px;
   transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
   position: absolute;
-  width: 640px;
-  height: 220px;
+  width: 320px;
+  height: 110px;
   bottom: 0px;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 482px;
+  margin-top: 241px;
 }
 
 
